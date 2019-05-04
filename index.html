@@ -6,50 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="CSS/custom.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    
+    <title>Calaca</title>
   </head>
   <body>
 
 <!-- Header -->
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
-
+<nav id="logo" class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">  
+          <a>
+              <img src="logo/logo.jpg">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+              <a class="nav-link" href=#cursos>Cursos y Talleres </a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href=#conciertos>Conciertos</a>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Contacto
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#" target="_blank">
+                      <img src="#">TWITTER
+                  </a>
+                  <a class="dropdown-item" title="044-55-45-16-77-07">
+                   <img src="https://cdn.icon-icons.com/icons2/693/PNG/128/Facebook_Rounded_Solid_icon-icons.com_61562.png">FACEBOOK
+                  </a>
+                  <div class="dropdown-item"></div>
+                  <a class="dropdown-item" href="#">
+                      <img src="#">GMAIL
+                  </a>
+              </div>
+              </li>
+          </ul>
+          </div>
+  </div> 
+</nav>
 <!-- Carrusel -->
 
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -88,15 +89,29 @@
 </div>
 
 <!-- Footer -->
-
-                      <div class="card">
-                            
-                            <div class="card-body">
-                              <h5 class="card-title">Special title treatment</h5>
-                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                              
-                            </div>
-                          </div>
+<footer id=footer class="pie">
+  <div class="container-fluid">        
+  <div class="row">
+     <div class="col-6 col-lg offset-md-7">
+      <a href="#">Facebook
+          <img src="https://cdn.icon-icons.com/icons2/1/PNG/128/social_facebook_fb_35.png">
+      </a>
+  </div>
+  <div class="col-6 col-lg">
+    <a href="#">Twitter
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS6bDzlV8-rxr6TNPoOD71JElFRxfot3B_tjEKG-NV7TYlHRPPXA">
+    </a>
+</div>
+<div class="col-6 col-lg ">
+  <a href="#">Gmail
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAY1BMVEX///8AAABNTU37+/uCgoIICAjW1tYuLi41NTUZGRm0tLTp6en29vYXFxd0dHTw8PARERElJSXOzs5CQkK/v7+hoaE8PDza2tpnZ2daWlodHR3q6upfX1+ampqtra2Hh4ePj4+k0e8CAAACwklEQVR4nO2a63aCMBCEEwhWQVu1rW29v/9TVuqlQtjJJkTSc7rzs9rMBwkzgFFKJBKJRCKR6KyqNNlED6RJZsqqYZ+bYijzqwqT//qPxkPb1xqPrv7vgx/+WcX75fgT+Z8Ifs5BnuT8nzWu14FJ56+1OV1/ySagVlGpkvwwe4kVMi8ZaVKiGViM3GNzNFrQHkbRcKcTtI/hv0eTnCmcv8+52wArf4YGEwU/1vp1089/8+owcAHo9bKP/3LtGt8JoItduP/OfY27AbT+DFwI+SdjcA6AHlduN1sVK+NZAHr25u//NmMNzQPQ+ujrf2QOzAXQX1Mf++kXd1w2gH764Pt/PLGHtQDo4JqXXP9yTg5iDW8BqD3934bnT/fbfG/7WX9A54/T0KB761lkAKjplhzC3dCge7f1OuYAoAh1NTTdvZdI5wGoJX0cqKFB9y4upcYEQDNJNzTo3tvq4QIodSAHoxoadO/h9iU+AAjz7oamF859lXgAqGpFHpHd0KB7V/dl6gOA1lS7oUH3NletF4ACsdhsaHq65q3r1hMAxeLx91t091oV5guAYvHa0KB7t1aJewOg1X0+PPokdV0tAQAgFuuGprt30ZUXIQAoFg3dvd3VGQSAYpHUoXukQADuPe5N5H10KACKxQ6tyCeJYADXY25DoLLDAVAsNtUOv2gAzLttfP/eCwDF4k12+EUEcD9wOx/m+wKgu0VNhF9cABSLnOeG/gAgFonwiw5AxCLvJUIUgM5YpMPvAQAdsch9oxgJoB2LMPweA9CIRY+XF/EA7mLREX6PArjGot+bzKgAP0+Dnu9y4wKcYtH3Z43IAP4SAAEQAAEQAAEQAAEQAAEQAAH4ewDtjUwDA0ysrVwDA2TWj/0DAxhrO9/AAGX6DY3Jt3Sm39SafFtv+o3N6bd2p9/crpJv7xeJRCKRSPSf9Q23uSp1H4lnkgAAAABJRU5ErkJggg==">
+  </a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- Footer -->
     
 
     <!-- Optional JavaScript -->
